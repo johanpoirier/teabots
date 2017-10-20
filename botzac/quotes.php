@@ -43,4 +43,5 @@ $quotes = [
     "Je vous serai donc gré de suivre vos dossiers avant de faire des réponses à l’emporte pièce.",
     "Je suis venu, j'ai vu, et j'ai qu'un seul cul.",
     "S'il y en a un qui fait tilt, on prend la motte au cul.",
+    "La machine de staging elle est un peu vitaminée mais bon pas tant que ça.",// En expliquant à Typhon sur quoi on fait tourner notre IC
 ];
