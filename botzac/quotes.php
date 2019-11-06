@@ -61,4 +61,5 @@ $quotes = [
     'Là c’était pas un coup d’œil, c’était un coup de pied !',
     'Le pépère, il va avaler son chapeau.',
     'Il y a une chiure dans le ventilo.',
+    'C’est l’mec qui avait des cactus dans les poches, vous pouvez pas imaginer.',
 ];
