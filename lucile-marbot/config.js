@@ -6,7 +6,8 @@ const config = {
     'twitter_consumer_secret': '',
     'twitter_access_token': '',
     'twitter_access_token_secret': '',
-    'twitter_keywords': []
+    'twitter_keywords': [],
+    'handle_blacklist': []
 };
 
 module.exports = config;

@@ -4,7 +4,9 @@ const config = require(__dirname + '/config.js');
 const Twit = require('twit');
 const request = require('request-promise-native');
 
-let twitter = new Twit({
+const handleBlacklist = config['handle_blacklist'] || [];
+
+const twitter = new Twit({
     consumer_key: config['twitter_consumer_key'],
     consumer_secret: config['twitter_consumer_secret'],
     access_token: config['twitter_access_token'],
@@ -13,6 +15,10 @@ let twitter = new Twit({
 });
 
 const postMessage = tweet => {
+    if (handleBlacklist.includes(tweet.user.screen_name)) {
+        return;
+    }
+
     request({
         method: 'POST',
         uri: config['slack_webhook_url'],
@@ -27,7 +33,7 @@ const postMessage = tweet => {
 };
 
 // Listen to TEA twitter accounts
-let stream = twitter.stream('statuses/filter', {track: config['twitter_keywords']});
+const stream = twitter.stream('statuses/filter', {track: config['twitter_keywords']});
 
 console.log('Listening to Twitter, tracking ' + config['twitter_keywords'].join(', ') + '.');
 stream.on('tweet', postMessage);
