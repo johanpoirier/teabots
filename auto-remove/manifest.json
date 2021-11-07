@@ -5,7 +5,7 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://vivlio.ilucca.net/faces/*"],
+      "matches": ["SOME_URL"],
       "js": ["/auto_play.js"],
       "run_at": "document_end"
     }
