@@ -1,0 +1,13 @@
+{
+  "name": "Auto Remove",
+  "description": "Auto remove html elements",
+  "version": "0.2",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://vivlio.ilucca.net/faces/*"],
+      "js": ["/auto_play.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
