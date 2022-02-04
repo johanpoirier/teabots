@@ -1,16 +1,7 @@
 console.info('[[ Auto Play started ]]');
 
 const hideList = [
-    "Boris Faitout",
-    "Steevan Barboyon",
-    "Nicolas Zimmermann",
-    "Guillaume Decitre",
-    "Charly Martins",
-    "Daniela Moncada Alvarez",
-    "Benjamin Dolard",
-    "Sana Bekaddour",
-    "Anthony Abramo",
-    "Mireille Gutton"
+    "Test Test 2"
 ];
 
 let timeoutHandler = null;
