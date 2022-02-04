@@ -65,4 +65,5 @@ $quotes = [
     'C’est l’mec qui avait des cactus dans les poches, vous pouvez pas imaginer.',
     'Le coût du truc est prohibitif/mois.',
     'En 3 mois ils ont juste réussi à nous fournir un torche cul.',
+    'Les emmerdes ça vient en escadrilles.',
 ];
