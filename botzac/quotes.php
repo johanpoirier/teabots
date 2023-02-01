@@ -66,4 +66,5 @@ $quotes = [
     'Le coût du truc est prohibitif/mois.',
     'En 3 mois ils ont juste réussi à nous fournir un torche cul.',
     'Les emmerdes ça vient en escadrilles.',
+    'Cécile, elle triangule avec les pâtisseries.',
 ];
